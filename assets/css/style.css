@@ -1,0 +1,27 @@
+header {
+    background-color: black;
+    color: grey;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+body {
+    background-color: rgb(163, 18, 18);
+    color: goldenrod;
+}
+.questions {
+    text-align: center;
+    font-size: 30px;
+}
+#time {
+    text-align: center;
+    font-size: 20px;
+}
+.form-group {
+    max-width: 500px;
+    margin: auto;
+}
+#score {
+    display: none;
+    
+}

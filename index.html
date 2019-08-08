@@ -1,1 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Trivia Game</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <h1>Game of Thrones Trivia!</h1>
+    </header>
+
+    <div id="time">
+        Time Remaining:
+        <span id="timer">30</span>
+    </div>
+    <div id="score">
+       <p> correct: <span id="correct"></span></p>
+       <p> incorrect: <span id="incorrect"></span></p>
+       <div><button id="reset">Reset game</button></div>
+
+    </div>
+
+
+    <div class="questions" id="questions">
+
+        <p>
+            What was Brandon Stark's direwolfs name?
+        </p>
+        <div class="form-group">
+            <select class="form-control" id="q0">
+              <option>Grey Wind</option>
+              <option value="Summer">Summer</option>
+              <option>Shaggy Dog</option>
+              <option>Nymeria</option>
+            </select>
+          </div>
+         
+        <p>
+            Sansa Stark married Tyrion Lannister and which other character?
+        </p>
+        <div class="form-group">
+            <select class="form-control" id="q1">
+              <option>Ser Loras Tyrell</option>
+              <option>Jamie Lannister</option>
+              <option value="Ramsey Bolton">Ramsey Bolton</option>
+              <option>Doran Martell</option>
+            </select>
+          </div>
+        <p>
+            Who killed Rob Stark?
+        </p>
+        <div class="form-group">
+            <select class="form-control" id="q2">
+              <option value="Roose Bolton">Roose Bolton</option>
+              <option>Lord Walder Frey</option>
+              <option>Tywin Lannister</option>
+              <option>Jamie Lannister</option>
+            </select>
+          </div>
+        <p>
+            What is the nickname for Ser Loras Tyrell?
+        </p>
+        <div class="form-group">
+            <select class="form-control" id="q3">
+              <option>The Prince of Thornes</option>
+              <option>The Pretty Knight</option>
+              <option>The Prince of Roses</option>
+              <option value="The Prince of Flowers">The Prince of Flowers</option>
+            </select>
+          </div>
+        <p>
+            How many Stark children are there?
+        </p>
+        <div class="form-group">
+            <select class="form-control" id="q4">
+              <option value="Five">Five</option>
+              <option>Four</option>
+              <option>Six</option>
+              <option>Seven</option>
+            </select>
+          </div>
+        <p>
+            How many sons does Ned Stark have?
+        </p>
+        <div class="form-group">
+            <select class="form-control" id="q5">
+              <option>Four</option>
+              <option>Two</option>
+              <option>One</option>
+              <option value="Three">Three</option>
+            </select>
+          </div>
+          </div>
+          <p>
+              <div><button id="end-game-early">Finish</button></div>
+          </p>
+    </p>
+
+    <script src="assets/javascript/app.js"></script>
+</body>
+
+</html>
